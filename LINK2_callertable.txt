@@ -1,0 +1,20 @@
+main
+	__CC2DW
+	send_data_command
+		PWM1_Init
+		PWM1_Set_Duty
+			Mul_16X16_U
+		PWM1_Start
+		PWM1_Stop
+		send_data_byte
+			PWM1_Init
+			PWM1_Set_Duty
+				Mul_16X16_U
+			PWM1_Start
+			PWM1_Stop
+		repeat
+			PWM1_Start
+			PWM1_Stop
+	repeat
+		PWM1_Start
+		PWM1_Stop

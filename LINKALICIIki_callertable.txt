@@ -1,0 +1,6 @@
+main
+	__CC2DW
+	PWM1_Set_Duty
+		Mul_16X16_U
+interrupt
+	timer_routin
